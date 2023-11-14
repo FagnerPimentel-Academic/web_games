@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    background-image: url("fundozombie.jpg");
+}
+.criadores{
+    font-size: 30px;
+    text-decoration-line: underline;
+    color: lightcoral;
+}
+.criadores:hover{
+    font-size: 40px;
+}
+h1{
+    color: red;
+    font-size: 50px;
+}
+h2{
+    color: skyblue;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.boa_sorte{
+    color: orangered;
+    font-size: 20px;
+}
+.jogo{
+    color: red;
+    font-size: 20px;
+}
+.projetos_jogo{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogo_1{
+    color: white;
+    font-size: 18px;}
+.jogo_1_1{
+    border:  5px solid white;
+    background-color: black;
+}
+.jogo_1:hover{
+    font-size: 25px;
+}
+
+.jogo_2{
+    color: yellow;
+    font-size: 18px;
+}
+.jogo_2_1{
+    border: 5px solid yellow;
+    background-color: black;
+}
+.jogo_2_2{
+    color: yellow;
+    font-size: 18px;
+}
+.jogo_2:hover{
+    font-size: 25px;
+}
+.jogo_3{
+    color: greenyellow;
+    font-size: 18px;
+}
+.jogo_3_1{
+    border: 5px solid greenyellow;
+    background-color: black}
+.jogo_3_2{
+    color: greenyellow;
+    font-size: 18px;
+}
+.jogo_3:hover{
+    font-size: 25px;
+}
+.jogo_4{
+    color: red;
+    font-size: 18px;
+}
+.jogo_4_1{
+    border: 5px solid red;
+    background-color: black}
+.jogo_4_2{
+    color: red;
+    font-size: 18px;
+}
+.jogo_4:hover{
+    font-size: 25px;
+}

@@ -1,0 +1,187 @@
+:root{
+    --mainGreen: #6E6096;
+}
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html, main, .MainContainer{
+    margin: 0;
+}
+.main{
+    position: relative;
+    top: -50px;
+    background-image: url(./Curriculum/img/Menor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #3F4173;
+    height: 350px;
+}
+
+.MainContainer{
+    top: 100px;
+    margin:  0 auto;
+    background-color: var(--mainGreen);
+    width: 800px;
+    position: relative;
+    height: 300px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.46);
+}
+
+/* image */
+#image{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    left: 40px;
+}
+/* firstContainer */
+.firstContainer{
+    text-shadow: 1px 1px 1.2px #0000005b;
+    display: flex;
+    position: relative;
+    margin: 40px;
+    justify-content: space-between;
+    color: rgb(234, 234, 234);
+
+}
+.MainInfs p{
+    position: relative;
+    bottom: 20px;
+}
+.MainInfs{
+    margin-top: 40px;
+}
+.secondsInfs{
+    font-size: 14px;
+}
+/* icons */
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    margin-top: 40px;
+    padding: 0;
+    right: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li a i{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+/* second COntainer */
+.secondContainer{
+    margin:  0 auto;
+    background-color: #fff;
+    width: 800px;
+    margin-top: 80px;
+    height: 250px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.46);
+    /*  */
+    text-align: center;
+}
+.secondContainer p {
+    font-size: 15px;
+    margin: 30px;
+    position: relative;
+    top: 30px;
+}
+hr{
+    position: relative;
+    top: 30px;
+    width: 700px;
+}
+/* botão */
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+.button{
+    margin: 0px 20px;
+    background-color: #3F4173;
+    border: 0;
+    color: white;
+    width: 120px;
+    text-decoration: none;
+    height: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.46);
+}
+.botao2{
+    text-decoration: none;
+    color: white;
+
+}
+/* menu*/
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav li{
+    font-size: 20px;
+}
+  
+nav li a{
+    color: var(--mainGreen);
+    text-decoration: none;
+    padding: 10px;
+}
+  
+nav li a:hover {
+    transition: .5s;
+    border-bottom: 2px solid gray;
+}
+.generalSecond{
+    display: none;
+}
+/* botoesDeMudanças */
+.BotoesDeMudanca{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botoesX{
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+.botoesX:hover{
+    transition: .5s;
+    background-color: black;
+}
+
+#play{
+    text-decoration: none;
+    font-size: 20px;
+    color:#3F4173
+}
+#play:hover{
+    transition: .3s;
+    font-weight: 1000;
+    color:#3F4173
+}

@@ -1,0 +1,91 @@
+body{
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+}
+
+.cabecalho{
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100px;
+    width: 100%;
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.titulo{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 35px;
+}
+
+
+
+h1{
+    color: #d64e3a;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 175px;
+    left: 42px;
+}
+.explicacao{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 275px;
+    left: 15px;
+}
+#exemplos{
+    color: #d64e3a;
+    font-family:  "Lucida Console", "Courier New", monospace ;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    left: 0px;
+}
+
+
+#autores{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 256px;
+}
+#autores:hover{
+    color: white;
+    font-size: 18px;
+}
+#info{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 585px;
+}
+#info:hover{
+    color: white;
+    font-size: 18px;
+}
+#jogo{
+    color:white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    right: 256px; 
+}
+#jogo:hover{
+    color: aliceblue;
+    font-size: 18px;
+}

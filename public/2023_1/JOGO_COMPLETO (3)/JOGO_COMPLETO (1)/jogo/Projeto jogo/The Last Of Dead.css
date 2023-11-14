@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: url("fundozombie.jpg");
+}
+
+#jogo {
+    border: 1px solid black;
+    background-image: url("cidade.jpg");
+    cursor: url("Mira(mouse).png"),auto;
+}
+
+#pontos {
+    margin-top: 10px;
+    color: white;
+}
+
+#Play {
+    margin-top: 10px;
+}
+
+a{
+    color:red;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    text-decoration:none ;
+}
+#pontuacaoMaxima{
+    margin-top: 10px;
+    color: white;
+}

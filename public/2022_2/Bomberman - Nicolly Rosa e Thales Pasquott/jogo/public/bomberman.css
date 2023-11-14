@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+canvas {
+    background: bisque;
+}
+
+.tituloPlacar{
+    font-size: 18px;
+}
+
+.placar {
+    width: 940px;
+    margin: 10px auto 0;
+    display: flex;
+}
+
+.placar1 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.placar2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.Menus {
+    width: 940px;
+    margin: 0 auto;
+}

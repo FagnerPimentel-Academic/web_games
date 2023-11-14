@@ -1,0 +1,150 @@
+/*introdução*/
+.coluna{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.cabecalho{
+    background-color:ghostwhite;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 11vh;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    opacity:0.9;
+}
+
+.wing{
+    font-size: 25pt;
+    font-family: "Courier New";
+    display: flex;
+    margin-inline: 10px;
+}
+.botoes{
+    display: flex;
+    margin-inline: 35px;
+}
+.opcoes{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 20pt;
+    font-family: "Courier New";
+    padding: 20px;
+}
+.botalun{
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding-right: 25px;
+}
+
+.botint:hover{
+    text-decoration: underline;
+    padding-right: 25px;
+    color: black;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.botint{
+    padding-right: 25px;
+}
+.botjog{
+    padding-right: 25px;
+}
+
+.botjog:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding-right: 25px;
+}
+
+
+.explicação{
+    font-family: Righteous;
+    display:flex;
+    justify-content: center;
+    font-size: 45pt;
+    color: indigo;
+}
+body {
+    background-image: url("img/fundo_pag.jpg")
+}
+.apresentação_pedro{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    width: 60vw;
+    height: 46vh;
+    background: rgba(255, 255, 255, 0.5);
+    flex-flow: column nowrap;
+}
+.dadospedro{
+    font-weight: bold;
+    font-family: "Calibri Light";
+    font-size: 1.5vw;
+    margin-inline: 15px;
+
+}
+.infopedro{
+    font-weight: lighter;
+    font-family: "Calibri";
+    font-size: 2vw;
+    margin-inline: 15px;
+}
+
+.apresentação_laura{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    width: 60vw;
+    height: 50vh;
+    background: rgba(255, 255, 255, 0.5);
+    flex-flow: column nowrap;
+
+}
+.caixadopedro{
+    display:flex;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+.caixadalaura{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+
+
+}
+.imagemlaura{
+    margin-left: 85px;
+    margin-right: 49px;
+}
+
+.imagempedro{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 45px;
+}
+
+.dadoslaura{
+    font-weight: bold;
+    font-family: "Calibri Light";
+    font-size: 1.5vw;
+    margin-inline: 15px;
+}
+.infolaura{
+    font-weight: lighter;
+    font-family: "Calibri";
+    font-size: 2vw;
+    margin-inline: 15px;
+}

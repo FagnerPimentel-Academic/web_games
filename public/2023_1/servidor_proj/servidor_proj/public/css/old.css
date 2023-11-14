@@ -1,0 +1,147 @@
+h3 {
+    text-align: center;
+    color: #a6e3a1;
+}
+
+h2 {
+    text-align: center;
+    color: #a6e3a1;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.uncentered-title{
+    text-align: left;
+    color: #a6e3a1;
+    margin-bottom: 1em;
+}
+
+table,
+th,
+td {
+    border: 2px solid #CDD6F4;
+    background-color: #313244;
+}
+
+#lista {
+    background-color: #2e2e3e;
+}
+
+body {
+    background-color: #1E1E2E;
+    color: #CDD6F4;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.link {
+    color: #CDD6F4;
+    text-decoration: none;
+}
+
+.link:hover, .obvious {
+    color: #a6e3a1;
+    text-decoration: underline;
+}
+
+.img-generic {
+    height: 100px;
+}
+
+#navbar {
+    background-color: #2e2e3e;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    transition: top 0.3s;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+#navbar .col {
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2e3e;
+    text-align: center;
+}
+.btn, .btn:hover, .btn:focus, .btn:active {
+    background-color: #2e2e3e;
+    color: #CDD6F4;
+    border-radius: 12pt;
+    display: block;
+    text-align: center;
+    padding: 1em;
+}
+.centered{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#canvas{
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.center-table{
+	margin: 0 auto;
+}
+
+.form-input{
+    border: none;
+    transition: 0.3s;
+    border-radius: 12pt;
+    background-color: #2e2e3e;
+    color: #CDD6F4;
+    padding: 10px;
+}
+
+.form-input:hover, .form-input:focus{
+    background-color: #45475a;
+    border: none;
+    color: #CDD6F4;
+}
+
+.form-btn{
+    border: none;
+    border-radius: 12pt;
+    transition: 0.3s;
+    background-color: #2e2e3e;
+    color: #CDD6F4;
+    padding: 10px;
+}
+.form-btn:hover{
+    background-color: #45475a;
+}
+
+.green-filter{
+    filter: invert(90%) sepia(23%) saturate(565%) hue-rotate(56deg) brightness(96%) contrast(86%);
+}
+
+.canvas-main{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.eu{
+    width: 50%;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

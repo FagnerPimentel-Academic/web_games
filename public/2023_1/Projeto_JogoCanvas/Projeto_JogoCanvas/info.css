@@ -1,0 +1,102 @@
+body{
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+}
+
+.cabecalho{
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100px;
+    width: 100%;
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.titulo{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+#home{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 256px;
+}
+#home:hover{
+    color: white;
+    font-size: 18px;
+}
+#autores{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 585px;
+}
+#autores:hover{
+    color: white;
+    font-size: 18px;
+}
+#jogo{
+    color:white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    right: 256px; 
+}
+#jogo:hover{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+h1{
+    color: #d64e3a;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 160px;
+    left: 42px;
+}
+
+.instrucoes{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 220px;
+    left: 15px;
+}
+
+h3{
+    color: #d64e3a;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+    top: 450px;
+    left: 20px;
+}
+#link{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 490px;
+    left: 20px;
+}
+
+#link:hover{
+    color: #d64e3a;
+    font-size: 25px;
+}

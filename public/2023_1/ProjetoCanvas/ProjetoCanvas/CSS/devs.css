@@ -1,0 +1,45 @@
+body{
+    background-image: url("../images/cemiterio.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+#canvas{
+    position: relative;
+    top: 27vh;
+    display: flex;
+    justify-content:flex-start;
+}
+
+#id_canvas2{
+    background-image: url("../images/livromaior.png") ;
+
+}
+#id_canvas3{
+    background-image: url("../images/Capa.png");
+}
+#id_botaolink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Creepster', cursive;
+    color: black;
+    background: gold;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#id_botaolink:hover{
+    background: yellow;
+}
+
+#id_botaojogar{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    top: 800px;
+    width: 100%;
+}

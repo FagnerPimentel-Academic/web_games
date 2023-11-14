@@ -1,0 +1,36 @@
+body{
+    background-color: #466273;
+}
+
+#id_foto1{
+    display: inline;
+    width: 38px;
+}
+
+#id_foto2{
+    display: inline;
+    width: 50px;
+}
+
+
+#id_foto3{
+    display: inline;
+    width: 43px;
+}
+
+#id_canvas1{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#id_canvas2{
+    background-image: url("../images/ceu.png");
+    border: solid  4px  black;
+}
+
+#chao{
+    display: none;
+}
+

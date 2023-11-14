@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo</title>
+    <link href="CSS/jogo.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> O JOGO QUE VOCÊ SEMPRE DESISTE </h1>
+        <a class="menu" href="menu.html">MENU</a>
+        <a class="menu" href="nomes.html">Criadores</a>
+    </header>
+
+
+    <h2>Bem vindo ao jogo que você sempre <strong>perde!</strong> Para começar, clique no botão "Iniciar". Feito isso, aparecerão
+        blocos de diferentes cores na tela. O objetivo é muito simples: <strong>apagá-los.</strong></h2>
+    <h2>Mas não pense que é fácil assim... se você manter o seu mouse parado por, no máximo, 3 segundos, você
+        automáticamente estará se entregando a derrota, além de que o tamanho da borracha vai diminuindo com o tempo.</h2>
+    <h2>Lembre-se: esse jogo é infinito. A única coisa que fará com que ele termine é sua falta de persistência!</h2>
+    <h2>(Para jogar novamente, por favor recarregue a página.)</h2>
+    <h2>Que as competições comecem!</h2>
+
+    <p id="timer"></p>
+
+    <button id="desistir" onclick="desistencia()">DESISTO</button>
+
+    <div id="div">
+    <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+
+    <br>
+
+    <button id="iniciar" onclick="main()"> Iniciar </button>
+
+
+<script src="Java/jogo1.js"></script>
+</body>
+</html>

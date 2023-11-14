@@ -1,0 +1,90 @@
+body{ background-color: white;
+}
+
+
+
+h1{ text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+    color: #ee5403;
+    font-family: Arial;
+}
+
+h2{ text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+   }
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.flex_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+h3{ text-align: center;
+    border: dashed 4px red;
+    font-family: Arial;
+}
+
+
+#cor_text1{
+    color: #4040ad;
+}
+
+#cor_text2{ color: #6b15bd;
+}
+
+
+
+.flex_ini{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 5px double blue;
+    height: 115px;
+}
+
+#es{ color: darkblue;
+
+}
+
+#boom{ position: absolute;
+    top: 350px;
+    left: 40%;
+}
+
+#bomba_ven{ position: relative;
+    left: 330px;
+}
+
+#desen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links{ font-size: 25px;
+        color: gray;
+
+}
+
+.link{ font-size: 25px;
+    color: darkgreen;
+
+}
+
+a{
+    color: red
+}

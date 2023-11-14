@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird Clone</title>
+    <link rel="stylesheet" type="text/css" href="jogo.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous"/>
+</head>
+<body>
+<div class="cabecalho">
+  <div class="wing">
+        WingIt!
+    </div>
+    <div class="botoes">
+        <div class="opcoes">
+             <div class="botint">
+                 <a href="home.html" >Introdução</a>
+             </div>
+             <div class="botalun">
+                <a href="alunos.html" >Alunos</a>
+            </div>
+            <div class="botjog">
+                Jogo
+            </div>
+        </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div id="jogo" onclick="clicou()">
+    <p id="tutorial">CLIQUE NO JOGO PARA PULAR</p>
+    <canvas onclick="clicou()" id="canvas" width="900" height="540"></canvas>
+</div>
+<button id="botIniciar" type="button" class="botIniciar" onclick="jogo()">Iniciar!</button>
+</body>
+<script src="jogo.js"></script>
+</html>

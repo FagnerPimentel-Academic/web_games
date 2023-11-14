@@ -1,0 +1,47 @@
+#info {
+	color: rgb(185, 48, 48);
+	margin: 10px 10px 0;
+	padding: 8px;
+	background: black;
+	position: absolute;
+	z-index: 1;
+}
+
+#info h1 {
+	font-size: 20px;
+}
+
+#info p {
+	font-size: 14px;
+}
+
+body{
+	justify-content: center;
+	background-image: url("./assets/background.webp");
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	margin: 20px auto;
+	
+  }
+  
+  .menu a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+  }
+  
+  .menu a:hover {
+	
+	text-decoration: underline;
+	font-weight: 800;
+  }
+
+.game{
+	justify-content: center;
+	display: flex;
+}

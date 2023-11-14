@@ -1,0 +1,67 @@
+header{
+    margin:-10px;
+    padding:2em;
+    width:1457px;
+    text-align:center;
+    border:none;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: midnightblue;
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(#ffdaea,white);
+}
+
+.menu{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 9%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.comecar{
+    font-size:25px;
+}
+p{
+    font-size:24px;
+    font-family:Arial,sans-serif;
+    text-align:justify;
+}

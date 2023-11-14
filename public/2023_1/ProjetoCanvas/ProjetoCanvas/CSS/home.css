@@ -1,0 +1,50 @@
+body{
+    background-image: url("../images/floresta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.class_posicaodiv1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 90px;
+}
+.class_posicaodiv2{
+    background-color: gray;
+    width: 120vh;
+    padding: 20px;
+    margin: 50px;
+    border: solid dimgray 5px;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+}
+
+#id_botaolink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Creepster', cursive;
+    color: black;
+    background: gold;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#id_botaolink:hover{
+    background: yellow;
+}
+
+#id_botaojogar{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

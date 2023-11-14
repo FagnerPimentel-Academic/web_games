@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('Background.jpg');
+    background-size: 80%;
+}
+h1{
+    font-family: "Comic Sans MS", serif;
+    color: darkturquoise;
+    margin-top: 10px;
+}
+#nossoCanvas{
+    background-image: url("Canvas.jpg");
+}
+#canvas {
+    position: relative;
+}
+
+#opcao1 {
+    position: absolute;
+    top: 67%;
+    left: 4.5%;
+}
+
+#opcao2 {
+    position: absolute;
+    top: 78.5%;
+    left: 4.5%;
+}
+
+#opcao3 {
+    position: absolute;
+    top: 67%;
+    left: 31.5%;
+}
+
+#opcao4 {
+    position: absolute;
+    top: 78.5%;
+    left: 31.5%;
+}
+#botao{
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+    font-size: 30px;
+    background-color: indianred;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#botao:hover{
+    transform: scale(1.1);
+}
+.hidden {
+    display: none;
+}

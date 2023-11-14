@@ -1,0 +1,72 @@
+header{
+    margin:-10px;
+    padding:2em;
+    width:1457px;
+    text-align:center;
+    border:none;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    color: midnightblue;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(#afc8af,#625f5f);
+}
+
+#canvas{
+    background: blue;
+    box-shadow: 20px 20px 10px 0 black;
+}
+
+#iniciar{
+    display:flex;
+    margin:0 auto;
+    font-size:20px;
+    background: #6bbaf3;
+}
+
+.menu{
+    font-size: 25px;
+}
+
+#desistir{
+    display:flex;
+    font-size:40px;
+    background: #bf000d;
+    margin:10px auto;
+    padding: 20px;
+}
+
+#div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer{
+    font-size: 20px;
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:midnightblue;
+    margin:50px;
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+    font-size:27px;
+}
+strong{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:red;
+}

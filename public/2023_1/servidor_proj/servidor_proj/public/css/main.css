@@ -1,0 +1,97 @@
+body{
+    background-color: lightgray;
+    color: black;
+}
+#menu{
+    background-color: lightskyblue;
+    color: darkred;
+    margin: 0 5px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.logo-div{
+    background-color: blue;
+    color: darkgreen;
+    border: 5px;
+    border-style: solid;
+    text-align: center;
+    border-color: lightgray;
+    padding: 5px;
+    border-bottom: none;
+}
+.row{
+    width: 100vw;
+}
+.logo-div .row{
+    background-color: bisque;
+    margin: auto;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+.logo-img{
+    height: 150px;
+}
+.centralize{
+    text-align: center;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    color: indigo;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+.book{
+    height: 250px;
+}
+.tb-contatos{
+    border: 5px;
+    border-style: dashed;
+    border-color: red;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.tb-contatos table tr td{
+    border: 5px;
+    border-style: solid;
+    border-color: darkred;
+    border
+}
+.tb-title{
+    color: red;
+}
+.sites{
+    background-color: yellow;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: red;
+    margin-left: 5em;
+}
+.footer{
+    text-align: center;
+    width: 100vw;
+    background-color: bisque;
+    color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 10pt;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img{
+    height: 100px;
+}

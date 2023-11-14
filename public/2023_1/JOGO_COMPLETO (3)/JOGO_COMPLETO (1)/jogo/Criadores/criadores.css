@@ -1,0 +1,37 @@
+body{
+    background-image: url("fundozombie.jpg");
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    text-decoration-line: underline;
+    color: red;
+}
+a:hover{
+    font-size: 40px;
+}
+
+h3
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: lightcoral;
+}
+
+.quadrado {
+    border: 2px solid black;
+    padding: 25px;
+    width: fit-content;
+    display: inline-block;
+    background-color:darkslateblue;
+}
+
+h2{
+    color: black;
+    font-size: 40px;
+}
+p{
+    color: white;
+}
+

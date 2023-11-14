@@ -1,0 +1,174 @@
+body{
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+}
+
+.cabecalho{
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100px;
+    width: 100%;
+    background: rgb(228,126,191);
+    background: linear-gradient(238deg, rgba(228,126,191,1) 0%, rgba(249,192,106,1) 100%);
+    border-bottom: 2px solid white;
+    text-align: center;
+    
+}
+
+.titulo{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+#home{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 256px;
+}
+#home:hover{
+    color: white;
+    font-size: 18px;
+}
+#info{
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 585px;
+}
+#info:hover{
+    color: white;
+    font-size: 18px;
+}
+#jogo{
+    color:white;
+    font-family:"Lucida Console", "Courier New", monospace ;
+    font-size: 16px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    right: 256px; 
+}
+#jogo:hover{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.autor_ana{
+    background: #f9d8a7;
+    position: relative;
+    top: 200px;
+    left: 350px;
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 360px;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+.autor_edu{
+    background-color:#f9d8a7;
+    position: relative;
+    top: -153px;
+    left: 900px;
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 360px;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+#nome{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:15%;
+}
+#email{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    
+}
+#ra{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:70%;
+}
+
+#nomeE{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:15%;
+}
+#emailE{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    
+}
+#raE{
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:70%;
+}
+
+#ana{
+    color: #d64e3a;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 26px;
+    position: absolute;
+    top: 655px;
+    left: 42px;
+}
+
+.curriculo_ana{
+    color:white;
+    position: absolute;
+    top: 720px;
+    left: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#edu{
+    color: #d64e3a;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 26px;
+    position: absolute;
+    top: 910px;
+    left: 42px;
+}
+
+.curriculo_edu{
+    color:white;
+    position: absolute;
+    top: 970px;
+    left: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}

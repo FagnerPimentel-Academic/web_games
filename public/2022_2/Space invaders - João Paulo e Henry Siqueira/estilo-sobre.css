@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(49,49,49);
+
+}
+
+#cima{
+    display: flex;
+    justify-content: center;
+    background-color:black ;
+}
+
+#cima ul{
+    max-width: max-content;
+    list-style: none;
+    padding: 0;
+    
+}
+
+#cima ul li{
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+#cima ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20pt;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#cima ul li a:hover{
+    border: solid white;
+
+}
+
+#apresentação{
+    margin: 0;
+    color: white;
+    font-family: monospace;
+    font-size: 14pt;
+    font-weight: bold;
+    line-height: 20pt;
+}
+
+#intro{
+    padding: 20px;
+    width: 1500px;
+}
+
+#P-j{
+    padding: 20px;
+    width: 1500px;
+}
+
+#P-h{
+    padding: 20px;
+    width: 1500px;
+}
+
+#end{
+    padding: 20px;
+    width: 1500px;
+}
+
+table{
+    border-color: white;
+}
+
+#spfc{
+    color: rgb(49,49,49);
+    font-size:10px;
+    display: flex;
+    justify-content: right;
+}

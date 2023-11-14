@@ -1,0 +1,14 @@
+{
+  "name": "jogo",
+  "version": "1.0.0",
+  "description": "Bomberman",
+  "main": "../servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolly Thales",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

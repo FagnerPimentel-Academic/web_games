@@ -1,0 +1,96 @@
+h1{ text-align: center;
+    font-size: 55px;
+    color: #ffffff;
+    text-shadow:
+            0 0 7px #500101,
+            0 0 10px #ffbca1,
+            0 0 21px #d58765,
+            0 0 42px #854529,
+            0 0 82px #7c442d,
+            0 0 92px #ffbca1,
+            0 0 102px #d58765,
+            0 0 151px #ffbca1;
+
+}
+
+body{ background-color: antiquewhite;
+
+}
+
+#desen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+
+}
+#nome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #448688;
+
+}
+
+#ra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+    left: 16px;
+
+
+}
+
+
+#email{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+
+}
+
+h2{ text-align: center;
+    font-family: Arial;
+}
+
+#voltar{
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+#final{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links{ font-size: 25px;
+    color: gray;
+
+}
+
+.link{ font-size: 25px;
+    color: darkgreen;
+
+}

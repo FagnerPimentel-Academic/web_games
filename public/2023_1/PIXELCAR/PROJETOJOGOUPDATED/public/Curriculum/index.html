@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styleIN.css">
+    <script src="https://kit.fontawesome.com/bbbf50ffaf.js" crossorigin="anonymous"></script>
+    <title>PixelCar</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <h1> PixelCar</h1>
+        </div>
+        <a href="../jogo.html" id="play">JOGAR</a>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <div class="MainFirstOne">
+        <div class="main">
+            <div class="MainContainer">
+                <div class="firstContainer">
+                    <div class="MainColum">
+                        <div class="MainInfs">
+                            <h1> Paulo Hudson </h1>
+                            <p> Front-end Developer </p>
+                        </div>
+                        <div class="secondsInfs">
+                            <p> <i class="fa-solid fa-envelope"> </i> Paulo.hudson012@gmail.com  </p>
+                            <p>  <i class="fa-solid fa-location-dot"></i> São Paulo - BR </p>
+                        </div>
+                        <!-- font awesome -->
+                        <div class="divIcons">
+                            <ul>
+                                <li> 
+                                    <a href="mailto:paulo.hudson012@gmail.com"> 
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="https://www.linkedin.com/in/paulohuds0n/"> 
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="https://www.instagram.com/paulohuds0n/"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="https://www.twitch.tv/paulohuds0n"> 
+                                        <i class="fa-brands fa-twitch"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                </div>
+
+                <div class="FirstImage">
+                    <image id="image" src="./img/Img.png"></image>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="secondContainer">
+            <p>
+                Atualmente estudando, aprimorando e desenvolvendo projetos a fim de impulsionar meus conhecimentos na área da programação, trabalhando principalmente com JS, CSS, REACT, NODE, PYTHON e outras tecnologias. Sempre em busca da obtenção de novos conhecimentos para o meu crescimento pessoal e profissional. Hoje, além dos meus cursos online, também estou a cursar o primeiro semestre de ciência da computação.
+            </p>
+            <hr>
+            <div class="buttons">
+                <button class="button"> <a href="./curriculum/Currículo PauloHudson.pdf" download class="botao2"> Baixar Cv </a>  </button>
+            
+            </div>
+        </div>
+    </div>
+    
+    <div class="generalSecond">
+        <div class="main">
+            <div class="MainContainer">
+                <div class="firstContainer">
+                    <div class="MainColum">
+                        <div class="MainInfs">
+                            <h1> Kawan mark </h1>
+                            <p> Estudante de Ciência da Computação</p>
+                        </div>
+                        <div class="secondsInfs">
+                            <p> <i class="fa-solid fa-envelope"> </i> kawandrew14@gmail.com</p>
+                            <p>  <i class="fa-solid fa-location-dot"></i> São Paulo - BR </p>
+                        </div>
+                        <!-- font awesome -->
+                        <div class="divIcons">
+                            <ul>
+                                <li> 
+                                    <a href="kawandrew14@gmail.com"> 
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="https://www.instagram.com/kaw.mark/"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                </div>
+
+                <div class="FirstImage">
+                    <image id="image" src="./img/kawan.jpg"></image>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="secondContainer">
+            <p>
+                Como estudante de Ciência da Computação, tenho um forte interesse em programação, desenvolvimento
+de software e Cybersecutiry. Com conhecimentos básicos em CSS, HTML, JavaScript e Python. Estou
+sempre buscando aprender mais sobre as tecnologias mais recentes e acompanhar as tendências do
+mercado.
+
+            </p>
+            <hr>
+            <div class="buttons">
+                <button class="button" > <a href="./curriculum/Curriculo Kawan.pdf" download class="botao2"> Baixar Cv </a>  </button>
+            
+            </div>
+        </div>
+    </div>
+     <!-- ChangeButtons... -->
+     <div class="BotoesDeMudanca">
+        <button class="botoesX"></button>
+        <button class="botoesX"></button>
+    </div>
+    <!-- next One. -->
+    <script>
+        function changeCv() {
+            const cv1 = document.querySelector(".MainFirstOne");
+            const cv2 = document.querySelector(".generalSecond");
+            const btns = document.querySelectorAll(".botoesX");
+            btns.forEach(btn => {
+            btn.addEventListener("click", function() {
+                if (cv1.style.display === "block") {
+                    cv1.style.display = "none";
+                    cv2.style.display = "block";
+                } else {
+                    cv1.style.display = "block";
+                    cv2.style.display = "none";
+                        }
+            });
+            });
+        }
+        changeCv();
+    </script>
+</body>
+</html>

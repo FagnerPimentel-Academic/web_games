@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+
+    <div id="cima" >
+        <ul id="cima">
+            <li> <a href="sobre.html">Sobre nós</a> </li>
+            <li> <a href="homepage.html">Pagina inicial</a> </li>
+        </ul>
+    </div>
+
+    <div class="wrap">
+        <header>Jogo para aula de Desenvolvimento Web</header>
+        <div class="jogo-wrapper">
+            <div class="principal"></div>
+                <div class="perdeu">
+                    <h1>FIM DE JOGO</h1>
+                        <h2>Mais sorte na próxima vez!</h2>
+                    <button class="btn" onclick="window.location.reload()">Restart</button>
+                </div>
+                <div class="ganhou">
+                    <h1>VOCÊ GANHOU!</h1>
+                    <h2>Parabéns!</h2>
+                    <button class="btn" onclick="window.location.reload()">Restart</button>
+                </div>
+        </div>
+
+    <div class="começar">
+           <img src="https://cdn-icons-png.flaticon.com/512/5261/5261929.png" alt="" onclick="começar()">
+    </div>
+        <script src="jogo.js"></script>
+        <footer>Feito por João Paulo e Henry Siqueira</footer>
+    </div>
+</body>
+</html>

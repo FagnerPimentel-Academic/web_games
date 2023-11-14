@@ -1,0 +1,140 @@
+
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* núvens */
+.clouds{
+    background-position: 0 0;
+    position: absolute;
+    background-image: url("./img/Nuvens.png");
+    width: 300px;
+    height: 130px;
+    top:15px;
+    right: 5px;
+    z-index: 3;
+}
+#cloud2{
+    z-index: 3;
+    top: 85px;
+}
+#cloud3{
+    top: 10px;
+}
+#cloud4{
+    z-index: 3;
+    top: 110px;
+}
+
+
+.MainBackground{
+    position: relative;
+    background-image: url("./img/skyMENORCojoystick.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+
+  
+}
+.MainBackground{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main button... */
+.botao{ 
+    position: relative;
+    z-index: 2;
+    background-color: Transparent;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+
+}
+.botao:hover{
+    transition: .5s;
+    font-size: 110px;
+    filter: brightness(.7);
+}
+/* canvas1 */
+#canvas{
+    bottom: 20px;
+    display: none;
+    z-index: 2;
+    position: relative;
+    background-image: url("./img/testeBackground.png");
+    border: 4px solid white;
+}
+/* -----ganhador---- */
+.ganhador1, .ganhador2 {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center; 
+    align-items: center; 
+    background-size: 30%;
+}
+
+.ganhador1 {
+    display: none;
+    background-image: url("./img/WINNERFIRST.png");
+}
+
+.ganhador2 {
+    display: none;
+    background-image: url("./img/WINNERSECOND.png");
+}
+
+/* playagain */
+.playagain{
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    border: black 2px solid;
+    color: white;
+    cursor: pointer;
+    font-weight:550;
+    font-size: 11px;
+    width: 200px;
+    height: 30px;
+}
+
+.playagain:hover{
+    background-color: rgba(0, 0, 0, 0.105);
+    transition: .5s;
+    opacity: 0.9;
+}
+/* menuback */
+#menuback{
+    font-family: 'Common Pixel', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #3F4173;
+    display: flex;
+    font-size: 35px;
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+}
+#menuback:hover{
+    transition: .5s;
+    font-size: 45px;
+    filter: brightness(.7);
+}

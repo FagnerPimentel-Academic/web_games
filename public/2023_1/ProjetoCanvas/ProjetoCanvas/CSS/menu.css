@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div_Jogo{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.div_menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gajraj One', cursive;
+    background-color: black;
+    height: 6vh;
+}
+
+.ul_links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.class_links{
+    margin-left: 100px;
+}
+
+#id_foto1{
+    display: inline-flex;
+    align-items: center;
+    width: 38px;
+
+}
+
+#id_foto2{
+    display: inline-flex;
+    align-items: center;
+    width: 46px;
+}
+
+
+#id_foto3{
+    display: inline-flex;
+    align-items: center;
+    width: 38px;
+}
