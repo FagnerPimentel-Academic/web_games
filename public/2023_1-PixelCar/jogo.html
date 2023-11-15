@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <title>PixelCar</title>
+</head>
+<body>
+
+    <div class="MainBackground">
+        <div class="button">
+            <button class="botao" onclick="canvasShow()"> 
+                <img src="./img/COMECARnobackground.png">
+            </button>
+        </div>
+        <canvas id="canvas" width="1200px" height="550x"></canvas>
+
+
+        <div id="cloud1" class="clouds"></div>
+        <div id="cloud2" class="clouds"></div>
+        <div id="cloud3" class="clouds"></div>
+        <div id="cloud4" class="clouds"></div>
+
+        <div class="ganhador1"></div>
+        <div class="ganhador2"></div>
+        <button type="button" class="playagain" onclick="location.reload()">Jogar Novamente</button>
+        <audio id="music" src="./music/howWeDo.mp3" autoplay></audio>
+        <a href="Curriculum/index.html" id="menuback">VOLTAR AO MENU</a>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="nuvens.js"></script>
+</body>
+</html>
