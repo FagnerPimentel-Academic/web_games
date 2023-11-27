@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3e3e3;
+    background-image: url('/assets/cadeirante.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #181818;
+    margin-top: 20px;
+    margin: 20px 40% 0px 40%;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.473);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    display: flex;
+    justify-content: center;   
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+    width: 800px;
+}
+
+
+.conteudo_iframe {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_simulacao{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#denuncia{
+    background-color: red;
+    color: white;
+    padding: 0 30px;
+    border-radius: 50px;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+}
+
+#botao_enviar{
+    padding: 5px 20px;
+    background-color: rgb(70, 245, 70);
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+#botao_enviar:hover{
+    background-color: rgb(31, 170, 31);
+    font-size: 21px;
+    padding: 6px 22px;
+}
+
+#mensagem_denuncia {
+    display: none;
+}

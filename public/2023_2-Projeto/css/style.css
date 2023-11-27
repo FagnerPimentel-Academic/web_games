@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f6bdff;
+  font-family: Times New Roman;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.titulo {
+  margin: -5px;
+  padding: 10px;
+
+  color: #80047b;
+}
+
+.imagens_textos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1px;
+  padding: 10px;
+  color: #80047b;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 23px;
+  color:white;
+}
+
+a:visited {
+  color: #744444;
+}
+.imagens_textos{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#bianca{
+  display:flex;
+  justify-content: right;
+  margin-top: 35px;
+}
+#aline{
+  display:flex;
+  justify-content: left;
+  margin-top: 35px;
+}
+#carol{
+  display:flex;
+  justify-content: left;
+  margin-top: 35px;
+}
+#ester{
+  display:flex;
+  justify-content: right;
+  margin-top: 35px;
+}
+#luana{
+  display:flex;
+  justify-content: right;
+  margin-top: 35px;
+}
+#gabi{
+  display:flex;
+  justify-content: left;
+  margin-top: 35px;
+}
+img {
+  width: 200px;
+  height: 200px;
+
+}
+#fei{
+  width: 50px;
+  height: 50px;
+}
+.hr{
+  color:#80047b;
+}
+.rodape {
+  display: flex;
+  background-color: #80047b;
+  color: #b9f0f0;
+  justify-content: space-around;
+  margin: -5px;
+  padding: 10px;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
+}

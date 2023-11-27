@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: transparent;
+    
+}
+
+.imagem_fundo {
+    background-image: url('Fundo.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+.botao_menu{
+    color: #151515;
+    font-family: "Poppins", sans-serif;
+    padding: 9px 37px 9px 37px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .25s;
+}
+.botao_menu:hover{
+    color: #034ea2;
+    text-decoration: underline;
+}
+
+.botao_jogo{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding: 9px 37px 9px 37px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .25s;
+    background-color: #034ea2;
+    border-radius: 20px;
+}
+.botao_jogo:hover{
+    background-color: #000000;
+}
+
+#canvas{
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 3px white;
+}
+#teste{
+    display: block;
+    position: absolute;
+    width: 1024px;
+    height: 576px;   
+    margin-top: 30px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+#teste img{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+#botao_jogar{
+    position: absolute;
+    top: 52.2%;
+    left: 40.6%;
+}
+#botao_voltar{
+    position: absolute;
+    top: 66.4%;
+    left: 40.9%;
+}
+
+#botao_comojogar{
+    position: absolute;
+    top: 68.6%;
+    left: 36%;
+}
+
+#fim_do_jogo{
+    display: block;
+    position: absolute;
+    width: 1024px;
+    height: 576px;   
+    margin-top: 30px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+#fim_do_jogo img{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+#como_jogar{
+    display: block;
+    position: absolute;
+    width: 1024px;
+    height: 576px;   
+    margin-top: 30px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+#como_jogar img{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+#botao_fechar{
+    height: 46px;
+    position: absolute;
+    top: 14.1%;
+    left: 82%;
+}
+
+#Timer{
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+
+}
+
+#nome_nivel{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#nivel_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 84%;
+    left: 40.8%;
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: white;
+    background-image: none;
+    flex: 1;
+    padding: 8px 70px;
+    cursor:pointer;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px #71790071;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.315) 5px 5px 10px;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400;600&display=swap');
+
+:root{
+    --cor-primaria: #171717;
+    --cor-secundaria: #EDEDED;
+    --cor-terciaria: #E966A0;
+    --cor-quaternaria: #0D0D0D;
+    --cor-quintenaria: #444444;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0; 
+    padding: 0;
+}
+.index{
+    background-image: url(img/universo.jpg);
+    overflow: hidden;
+}
+.game_board{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pipe{
+    position: absolute;
+    bottom: 50%;
+    width: 80px;
+    animation: pipe_animation 2s infinite linear;
+}
+
+.pontuacao {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.personagem{
+    position: absolute;
+    bottom: 50%;
+    width: 8%;
+    animation: floatAnimation 2s ease infinite;
+}
+.satelite{
+    position: absolute;
+    bottom: 50%;
+    width: 80px;
+    animation: pipe_animation 3s infinite linear;
+}
+.pipe{
+    position: absolute;
+    bottom: 50%;
+    width: 80px;
+    animation: pipe_animation 2s infinite linear;
+}
+
+.pipe2 {
+    position: absolute;
+    width: 80px;
+    animation: pipe_animation 2s infinite linear;
+}
+
+.satelite2 {
+    position: absolute;
+    width: 80px;
+    animation: pipe_animation 3s infinite linear;
+}
+.pipe3 {
+    position: absolute;
+    width: 80px;
+    bottom: 10%;
+    animation: pipe_animation 2s infinite linear;
+}
+
+.satelite3 {
+    position: absolute;
+    width: 80px;
+    bottom: 10%;
+    animation: pipe_animation 3s infinite linear;
+}
+.estrela{
+    width: 5%;
+    position: absolute;
+    left: -100px;
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+.jump{
+    animation: jump 0.5s ease infinite;
+}
+
+.questionContainer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #333;
+}
+.questionContainerDisplay{
+    display: block;
+}
+
+@keyframes pipe_animation {
+    from{
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Ajuste a altura da flutuação conforme necessário */
+    }
+}
+
+
+#canvas_quiz {
+    display: none;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: midnightblue;
+    position: absolute;
+    left: 21%;
+}
+/* Página play */
+.play{
+    background: var(--cor-quaternaria);
+    margin: 1%;
+    overflow: hidden;
+}
+.titulo_play{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 3vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_play{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.content_play{
+    background: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    padding: 2%;
+    width: 50%;
+    border-radius: 50px;
+    font-size: 1.1vw;
+    margin: 10px 20px;
+}
+.imagem_play{
+    width: 85%;
+}
+.btn_play{
+    background: midnightblue ;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    padding: 3% 15%;
+    text-align: center;
+    font-size: 1.4vw;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+.btn_play:hover{
+    background: rgb(71, 71, 207);
+    padding: 3% 12%;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}

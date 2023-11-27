@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Inovação Social</title>
+</head>
+<body class="index">
+    <!-- Questões -->
+    <div class="questionContainer">
+        <p id="question">Quanto é 1 + 1?</p>
+        <button class="option">2</button>
+        <button class="option">3</button>
+        <button class="option">4</button>
+    </div>
+    <div id="game_board" class="game_board">
+
+        <!-- estrelas -->
+        <img src="img/estrelas.png" alt="estrelas" class="estrela">
+
+        <img src="img/buraco-negro.png" alt="lampada" class="pipe">
+        <img src="img/satelite.png" alt="satelite" class="satelite">
+        
+        <!-- Novo par -->
+        <img src="img/buraco-negro.png" alt="lampada" class="pipe2">
+        <img src="img/satelite.png" alt="satelite" class="satelite2">
+
+        <!-- Novo par -->
+        <img src="img/buraco-negro.png" alt="lampada" class="pipe3">
+        <img src="img/satelite.png" alt="satelite" class="satelite3">
+    
+        <img src="img/astronauta.png" alt="personagem" class="personagem">
+        <p class="pontuacao">0</p>
+    </div>
+    <canvas id="canvas" width="100%" height="100%">
+
+    </canvas>
+    <canvas id="canvas_quiz" width=800 height=400></canvas>
+
+
+<script src="script.js"></script>
+</body>
+</html>

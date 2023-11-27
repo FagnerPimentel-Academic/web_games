@@ -1,0 +1,40 @@
+.menu {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+.botao_menu{
+    color: #151515;
+    font-family: "Poppins", sans-serif;
+    padding: 9px 37px 9px 37px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .25s;
+}
+.botao_menu:hover{
+    color: #0297f2;
+    text-decoration: underline;
+
+}
+
+.botao_jogo{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding: 9px 37px 9px 37px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .25s;
+    background-color: #0297f2;
+    border-radius: 20px;
+}
+
+.botao_jogo:hover{
+    background-color: #000000;
+}
