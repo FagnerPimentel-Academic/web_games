@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #e84545;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+}
+
+nav button {
+    background-color: #e84545;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform 0.2s;
+}
+
+nav button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #e84545;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(232, 69, 69, 0.6);
+}
+
+/* Botão Iniciar */
+.iniciarJogo {
+    background-color: #e84545; /* Cor de fundo similar ao título */
+    color: #f5f5f5; /* Cor do texto em branco */
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; /* Aumenta o tamanho para dar mais destaque */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    cursor: pointer;
+    margin-top: 20px; /* Espaço acima do botão */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animações mais suaves */
+}
+
+.iniciarJogo:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0px 0px 15px rgba(232, 69, 69, 0.8); /* Sombra mais intensa */
+}
+
+.iniciarJogo:active {
+    transform: scale(1.05); /* Um leve efeito de clique */
+}
+
+.secao {
+    display: none;
+    text-align: center;
+}
+
+.secao.oculto {
+    display: none;
+}
+
+.secao:not(.oculto) {
+    display: block;
+}
+
+#Canvas {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #e84545;
+    background-color: #111;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    color: #e0e0e0;
+    font-size: 0.9em;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#nomes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px; /* Espaçamento entre as colunas */
+}
+
+.dev {
+    text-align: center;
+    width: 250px; /* Ajuste de largura para acomodar as fotos maiores */
+}
+
+.foto-dev {
+    width: 250px; /* Aumenta a largura da imagem */
+    height: 250px; /* Aumenta a altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-bottom: 10px; /* Espaço entre a imagem e o nome */
+}
+
+h3 {
+    margin: 5px 0;
+    color: #e84545;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #f5f5f5;
+}
+
+h2{
+    color: #e84545;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Ninja</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo do Ninja</h1>
+        <nav>
+            <button onclick="mostrarSeção('jogo')">Jogar</button>
+            <button onclick="mostrarSeção('historia')">História</button>
+            <button onclick="mostrarSeção('desenvolvedores')">Desenvolvedores</button>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <!-- Seção do Jogo -->
+        <section id="jogo" class="secao">
+            <h2>Jogar</h2>
+            <!-- Canvas para o Jogo -->
+            <canvas id="Canvas" width="800" height="400"></canvas>
+            <button class="iniciarJogo" id="startButton">Iniciar Jogo</button> <!-- Botão de Iniciar Jogo -->
+            <button id="retryButton" style="display:none;">Tentar Novamente</button>
+        </section>
+
+        <!-- Seção da História -->
+        <section id="historia" class="secao oculto">
+            <h2>História do Jogo</h2>
+            <p>Em uma época de guerra e intrigas entre clãs ninjas, um habilidoso guerreiro é enviado em uma missão secreta e de alto risco. Seu objetivo é infiltrar-se nas profundezas do território inimigo para coletar suprimentos essenciais para seu clã, que tem sido ameaçado por uma escassez iminente. Mas a tarefa é mais perigosa do que parece: o território está repleto de armadilhas mortais e shurikens giratórios, posicionados estrategicamente pelos inimigos para deter qualquer intruso.
+            <br>
+            <br>
+            O ninja deve cruzar três territórios perigosos: uma cidade em ruínas, uma floresta misteriosa e um deserto desolado. Em cada território, ele precisa coletar suprimentos que estão espalhadas por áreas traiçoeiras, enquanto evita as shurikens mortais que guardam os locais. Após coletar todos os suprimentos de cada território, ele precisa encontrar a "Zona Segura" para avançar à próxima fase.
+            <br>
+            <br>
+            Cada fase é mais desafiadora que a anterior, com armadilhas mais complexas e shurikens em maior número e velocidade. O destino de seu clã depende da habilidade do jogador em guiar o ninja com destreza e precisão. Com o sucesso em cada fase, o ninja se aproxima da vitória e da sobrevivência de seu povo.
+            <br>
+            <br>
+            Será que o ninja conseguirá coletar todos os suprimentos e sair do território inimigo com vida?</p>
+        </section>
+
+<!-- Seção dos Desenvolvedores -->
+<section id="desenvolvedores" class="secao oculto">
+    <h2>Desenvolvedores</h2>
+    <div id="nomes">
+        <div class="dev">
+            <img src="Imagens/leo.jpg" alt="Foto de Leonardo" class="foto-dev">
+            <h3>Leonardo</h3>
+            <ul>
+                <li>20 anos</li>
+                <li>CD/IA - 1º Ciclo</li>
+                <li>RA: 522240035</li>
+            </ul>
+        </div>
+
+        <div class="dev">
+            <img src="Imagens/luis.jpg" alt="Foto de Luís" class="foto-dev">
+            <h3>Luís</h3>
+            <ul>
+                <li>21 anos</li>
+                <li>CC - 1º Ciclo</li>
+                <li>RA: 222240061</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jogo do Ninja.</p>
+    </footer>
+
+    <script src="jogo.js"></script>
+    <script>
+        function mostrarSeção(seçãoId) {
+            // Ocultar todas as seções
+            const secoes = document.querySelectorAll('.secao');
+            secoes.forEach(secao => {
+                secao.classList.add('oculto'); // Aplica a classe "oculto" para esconder
+            });
+            
+            // Exibe a seção ativa
+            document.getElementById(seçãoId).classList.remove('oculto'); // Remove a classe "oculto"
+        }
+
+        // Exibe a seção "jogo" ao carregar a página
+        mostrarSeção('jogo');
+    </script>
+</body>
+</html>
